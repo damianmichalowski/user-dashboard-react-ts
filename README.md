@@ -21,6 +21,6 @@ npx vitest run src/schemas/addUserSchema.test.ts
 ```
 
 ## Komentarz
-Normalnie podzieliłbym prace na więcej commitów, niestety tutaj już poszło większość na raz
-
-Dodatkowo na każdy nowy feuture tworzył był branch + pull requesty do maina
+API jsonplaceholder - Creating a resource: resource will not be really updated on the server but it will be faked as if.
+Zgodnie z powyższą informacją API, request POST nie tworzy relanego zasobu, dlatego po dostaniu odpowiedzi succes, zapisuje usera w globalnym stanie, dlatego po odświeżniu znika.
+Stwierdziłem że zadanie nie wymaga użycia local storage.
