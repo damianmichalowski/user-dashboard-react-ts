@@ -22,3 +22,5 @@ npx vitest run src/schemas/addUserSchema.test.ts
 
 ## Komentarz
 Normalnie podzieliłbym prace na więcej commitów, niestety tutaj już poszło większość na raz
+
+Dodatkowo na każdy nowy feuture tworzył był branch + pull requesty do maina
