@@ -12,10 +12,15 @@ React + TypeScript + Vite + Zustand + React Query + Axios + Tailwind + Shadcn + 
 ```bash
 git clone <LINK_DO_REPO>
 cd <NAZWA_FOLDERU>
+code .
+```
+w IDE
+```bash
 npm install
 npm run dev
 ```
-## Vitest
+
+## Testy Vitest
 ```bash
 npx vitest run src/schemas/addUserSchema.test.ts
 ```
